@@ -1,0 +1,86 @@
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*Style the top nav bar to stick to the top of the page when scrolling*/
+/* have top nav bar be transparent */
+.topnav{
+  height: 70;
+  top: 10px;
+  opacity: 90%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  box-shadow: 10px;
+}
+
+.connect{
+  display: flex;
+  justify-content: flex-start;
+  align-items:flex-end;
+  
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: 1px gray;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* style the search bar */
+.search{
+  position: relative;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  padding-left: 10em;
+}
+
+.explore{
+  gap: 1em;
+}
+
+.banner{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.ape, .aurora {
+  display: flex;
+  align-items: column;
+}
+
+.pig, .bitpig, .infinity{
+
+}
+
+.skull, .stache{
+
+}
+
+.bottomnav{
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+
