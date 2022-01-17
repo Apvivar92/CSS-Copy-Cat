@@ -1,80 +1,120 @@
+/*Style the top nav bar to stick to the top of the page when scrolling*/
+/* have top nav bar be transparent */
+
+.topnav{
+  background-color: black;
+  height: 70;
+  top: 10px;
+  opacity: 95%;
+  overflow: hidden;
+  display: inline-block;
+  align-items: center;
+  gap: 1;
+}
+
+/* style the search bar */
+.search{
+  background-color: white;
+  border-color: gray;
+  position: relative;
+  justify-content: center;
+  left: 700px;
+  margin: 0;
+  padding: 0;
+}
+
+.connect {
+  padding: 2px;
+  text-decoration: none;
+  font-size: 17px;
+  padding-left: 1rem;
+  position: relative;
+  left: 1400px;
+  margin: 0;
+  padding:0;
+}
+
+.connect a{
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: medium;
+}
+
+/* .connect{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+} */
+
 body{
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-/*Style the top nav bar to stick to the top of the page when scrolling*/
-/* have top nav bar be transparent */
-.topnav{
-  height: 70;
-  top: 10px;
-  opacity: 90%;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-around;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  color: black;
-  padding: 10px;
-  text-decoration: none;
-  font-size: 17px;
-  box-shadow: 10px;
-}
-
-.connect{
-  display: flex;
-  justify-content: flex-start;
-  align-items:flex-end;
-  
-}
-
-.topnav input[type=text] {
-  float: right;
-  padding: 6px;
-  border: 1px gray;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-}
-
-/* style the search bar */
-.search{
-  position: relative;
-  bottom: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: stretch;
-  padding-left: 10em;
-}
-
-.explore{
-  gap: 1em;
-}
-
-.banner{
+.banner {
   height: 100%;
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   gap: 1rem;
 }
 
-.ape, .aurora {
+.banner img{
+  border-radius: 20px;
+}
+
+.explore{
   display: flex;
-  align-items: column;
+  flex-direction: column;
+  align-self: center;
+  gap: 1em;
 }
 
-.pig, .bitpig, .infinity{
-
+.banner h1{
+  font-weight: 900;
+  font-size: 4em;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
 }
 
-.skull, .stache{
+.banner p{
+  font-size: large;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
+.banner a{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  max-width: 30%;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  max-width: 30%;
 }
 
 .bottomnav{
