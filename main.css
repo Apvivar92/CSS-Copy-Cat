@@ -131,11 +131,11 @@ body {
 }
 
 .upcoming img {
-  max-width: 100%;
+  max-width: 70%;
 }
 
 .upcoming a {
-  max-width: 40%;
+  max-width: 70%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -145,7 +145,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 50%;
+  max-width: 100%;
   height: 100%;
   margin: 0 auto;
   padding: 0;
